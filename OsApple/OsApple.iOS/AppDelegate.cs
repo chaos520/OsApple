@@ -21,7 +21,7 @@ namespace OsApple.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
-            OneSignal.Default.Initialize("3f188f7a-1797-4bae-ae43-20f9ff230e7e");
+            OneSignal.Default.Initialize("Your OneSignal App ID");
             OneSignal.Default.PromptForPushNotificationsWithUserResponse();
 
             LoadApplication(new App());
