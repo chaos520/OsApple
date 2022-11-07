@@ -7,3 +7,4 @@ config
 *.jfm
 *.mdf
 *.ldf
+packages
