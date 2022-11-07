@@ -11,7 +11,7 @@ namespace OsApple
             InitializeComponent();
             MainPage = new AppShell();
 
-            OneSignal.Default.Initialize("3f188f7a-1797-4bae-ae43-20f9ff230e7e");
+            OneSignal.Default.Initialize("Your OneSignal App ID");
             OneSignal.Default.PromptForPushNotificationsWithUserResponse();
         }
 
