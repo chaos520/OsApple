@@ -1,0 +1,9 @@
+bin
+obj
+config
+.vs
+*.dbmdl
+*.suo
+*.jfm
+*.mdf
+*.ldf
